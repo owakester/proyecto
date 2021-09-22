@@ -1,0 +1,125 @@
+
+/* reseteo de css */
+
+@import "animaciones";
+@import "mediaq";
+@import "tips";
+@import "tours"; 
+ 
+
+/* colores */
+$cblanco:#E4F1E8;
+$cverdeclaro:#7EA68C;
+$cverdeoscuro:#5B8869;
+$cgris:#383838;
+$cparrafo:#2a9d8f;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.frase {
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  position: relative;
+  top: 0px;
+  padding-left: 12%;
+  color: #1d3557;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.parrafo {
+  color: $cparrafo;
+}
+
+.card__boxcolor {
+  background-color: #a8dadc;
+}
+
+.card__parrafo,
+p {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  /* Aplica justify de forma correcta */
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+
+.card__text {
+  padding: 0;
+  margin: 0;
+}
+
+.card__body {
+  padding: 0;
+  margin: 0;
+}
+
+
+.anime__card:hover {
+ 
+
+    display: inline-block;
+  
+
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+  }
+
+
+
+/* Parrafos y textos */
+
+.carousel__titulos {
+  color: $cverdeoscuro;
+}
+
+.carousel__parrafo1 {
+  color: $cverdeoscuro;
+}
+
+h2 {
+  color: $cverdeclaro;
+}
+
+a {
+
+  font-size: medium;
+  font-weight: 600;
+}
+
+.bg {
+  background-image: linear-gradient(to right bottom, #f9fefa, #f5fdf7, #f1fdf4, #edfcf2, #e9fcef, #e9fcef, #e9fcef, #e9fcef, #edfcf2, #f1fdf4, #f5fdf7, #f9fefa);
+}
+.row_fondo {
+
+  z-index: -1;
+  /* height: 85vh; */
+}
+
+/* contacto */
+.bgContact{
+  background-color:#a8dadc;
+}
+

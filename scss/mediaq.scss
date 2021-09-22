@@ -1,0 +1,120 @@
+
+/* Colores */
+/* colores */
+$cblanco:#E4F1E8;
+$cverdeclaro:#7EA68C;
+$cverdeoscuro:#5B8869;
+$cgris:#383838;
+$cparrafo:#2a9d8f;
+
+
+.row_persona {
+  position: absolute;
+  height: 400px;
+  width: 600px;
+  top: 260px;
+  left: 450px;
+  z-index: 1;
+}
+  
+  /* tamaño celular */
+  @media only screen 
+     and (min-width : 320px) {
+  
+  .row_fondo{
+  height: auto;
+  width:320px;
+  }
+  
+  .row_persona{
+   top: 0px;
+   left: 10%;
+   height:150px;
+    width:250px;
+    }
+
+    .mensaje{
+       
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      position: absolute;
+      top: 25px;
+      left: 10px;
+      z-index: 1;
+      color: $cparrafo;
+   } 
+   .text_parrafo{
+    font-family: 'Poppins', sans-serif;
+    font-size:smaller;
+    }
+    
+
+  }
+  /* tablet */
+  @media only screen 
+     and (min-width : 768px) {
+      .row_fondo{
+        height: auto;
+        width:700px;
+        }
+  
+      .row_persona{
+        top: 55%;
+        left: 30%;
+        height:150px;
+        width:250px;
+           }
+         
+           .mensaje{
+       
+            font-family: 'Poppins', sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+            position: absolute;
+            top: 70px;
+            left: 40px;
+            z-index: 1;
+            color: $cparrafo;
+         }  
+
+         .text_parrafo{
+          font-family: 'Poppins', sans-serif;
+          font-size:medium;
+          }
+          
+  }
+  
+  
+  
+  
+  @media only screen 
+     and (min-width : 1200px) {
+      .row_fondo{
+        height: auto;
+        width:100%;
+        }
+  
+        .row_persona{
+          top: 40%;
+          left:30%;
+          height:450px;
+          width:650px;
+         
+           }
+
+           .mensaje{
+       
+            font-family: 'Poppins', sans-serif;
+            font-size: 80px;
+            font-weight: bold;
+            position: absolute;
+            top: 160px;
+            left: 70px;
+            z-index: 1;
+            color: $cparrafo;
+         }
+    
+  }
+
+

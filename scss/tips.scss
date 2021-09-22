@@ -1,0 +1,34 @@
+
+
+.imagenh{
+   height: 30%;
+   width: 30%;
+}
+
+h4{
+color:$cverdeoscuro;
+}
+
+.imgTips{
+border-radius: 10%;
+}
+
+.parrafoTexto{
+line-height: 20px+20px;
+font-size:large;
+
+}
+
+
+
+/* Cambia de color el boton utilizando la propiedad each */
+
+ $colores:red,blue,green;
+
+ @each $color in $colores {
+   .color-#{$color}:hover {
+   background-color: $color;
+   }
+ }
+ 
+
