@@ -259,7 +259,9 @@ a {
   overflow: hidden;
   padding-bottom: 30.25%;
   position: relative;
-  height: 0; }
+  height: 0;
+  border: 5px dotted #4DA461;
+  border-radius: 40px 40px 0px 40px; }
 
 .map-responsive iframe {
   left: 0;
