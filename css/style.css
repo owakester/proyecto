@@ -170,10 +170,14 @@ span {
   font-family: 'Poppins', sans-serif; }
 
 .cardImg1 {
-  background-color: #f8f9fa;
+  background-color: #c4d8c9;
   border-radius: 5px;
   -webkit-box-shadow: 2px 10px 15px 4px rgba(0, 0, 0, 0.07);
   box-shadow: 2px 10px 15px 4px rgba(0, 0, 0, 0.07); }
+
+/* ranking */
+.estrellas {
+  color: #fcbf49; }
 
 /* colores */
 * {
@@ -269,3 +273,7 @@ a {
   height: 100%;
   width: 100%;
   position: absolute; }
+
+/* run sass    npm run watch-css */
+.card {
+  margin: 1px; }
