@@ -61,19 +61,24 @@
     </header>
 
 
-    <section class="container-fluid">
+    <section style="background-color: rgb(243, 246, 246);" class="container-md p-5 rounded-pill shadow mapaMapundi ">
 
         <div class="row align-items-center">
 
-            <div class="col-md-4"></div>
+  
+            <div class=" col col-md-5 col-sm-5  mx-2  ">
+                <img class="float-end imgViajero " src="../images/viajeros.png" alt="">
+            </div>
 
-            <div class="bgContact col border rounded-3 shadow p-4  px-5">
+            
+            <div class="bgContact col col-md-5  col-sm-5  mx-2 border rounded-3 shadow py-4  px-2">
                 <form action="/action_page.php">
 
-
+<br>
                     <p class="text-justify">Lo revisaremos y nos comunicaremos contigo en un plazo de 24 horas </p>
 
                     <label>
+                        <br>
                         <span>Masculino</span>
                         <input type="radio" value="1" name="radio">
                         <span>Femenino</span>
@@ -92,7 +97,8 @@
 
                     <label for="fname">Nombre:</label><br>
                     <input class="form-control" type="text" id="fname" name="fname" value=""><br>
-                    <label for="mail">Correo:</label><br>
+                    <label for="mail">Correo:</label>
+                    <div id="emailHelp" class="form-text">Nunca comparta información de su correo electronico.</div>
                     <input class="form-control" type="email" id="mail" name="mail" value=""><br><br>
                     <label for="mensaje">Mensaje:</label><br>
                     <textarea class="form-control" name="asunto" rows="4" cols="50"></textarea>
@@ -102,7 +108,7 @@
 
                 </form>
             </div>
-            <div class="col-md-4"></div>
+           
 
 
 
@@ -115,7 +121,7 @@
     <!-- Footer con redes sociales -->
     <footer>
 
-        <div class="mt-2">
+        <div class="mt-4">
 
             <footer class="text-center text-white" style="background-color:#E4F1E8;">
                 <!-- redes sociales -->

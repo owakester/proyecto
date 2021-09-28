@@ -48,6 +48,14 @@ $cparrafo:#2a9d8f;
     font-family: 'Poppins', sans-serif;
     font-size:smaller;
     }
+
+  .imgViajero{
+  height: 200px;  
+  }
+
+
+
+
     
 
   }
@@ -82,11 +90,16 @@ $cparrafo:#2a9d8f;
           font-family: 'Poppins', sans-serif;
           font-size:medium;
           }
+
+          .imgViajero{
+            height: 300px;  
+            }
+          
           
   }
   
   
-  
+  /* pantallas grandes */
   
   @media only screen 
      and (min-width : 1200px) {
@@ -114,6 +127,11 @@ $cparrafo:#2a9d8f;
             z-index: 1;
             color: $cparrafo;
          }
+
+         .imgViajero{
+          height: 400px;  
+          }
+        
     
   }
 
