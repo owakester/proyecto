@@ -266,7 +266,7 @@ a {
   background-color: #f8f9fa; }
 
 .mapaMapundi {
-  background-image: url(/images/mapamundi.png); }
+  background-image: url(../images/mapamundi.png); }
 
 /* mapa responsive */
 .map-responsive {
