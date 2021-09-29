@@ -61,20 +61,20 @@
     height: 200px; }
   /* button tips */
   .padre > .circle0 {
-    top: 60%;
+    top: 55%;
     left: 40%; }
   .padre > .circle1 {
-    top: 110%;
+    top: 115%;
     left: 40%; }
   .padre > .circle2 {
     left: 40%;
-    top: 195%; }
+    top: 170%; }
   .padre > .circle3 {
     left: 40%;
-    top: 247%; }
+    top: 230%; }
   .padre > .circle4 {
     left: 40%;
-    top: 300%; } }
+    top: 280%; } }
 
 /* tablet */
 @media only screen and (min-width: 768px) {
