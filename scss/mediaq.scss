@@ -1,4 +1,3 @@
-
 /* Colores */
 /* colores */
 $cblanco:#E4F1E8;
@@ -16,167 +15,164 @@ $cparrafo:#2a9d8f;
   left: 450px;
   z-index: 1;
 }
-  
-  /* tamaño celular */
-  @media only screen 
-     and (min-width : 320px) {
-  
-  .row_fondo{
-  height: auto;
-  width:320px;
-  }
-  
-  .row_persona{
-   top: 0px;
-   left: 10%;
-   height:150px;
-    width:250px;
-    }
 
-    .mensaje{
-       
-      font-family: 'Poppins', sans-serif;
-      font-size: 15px;
-      font-weight: bold;
-      position: absolute;
-      top: 25px;
-      left: 10px;
-      z-index: 1;
-      color: $cparrafo;
-   } 
-   .text_parrafo{
+/* tamaño celular */
+@media only screen and (max-width : 420px) {
+
+  .row_fondo {
+    height: auto;
+    width: 320px;
+  }
+
+  .row_persona {
+    top: 0px;
+    left: 10%;
+    height: 150px;
+    width: 250px;
+  }
+
+  .mensaje {
+
     font-family: 'Poppins', sans-serif;
-    font-size:smaller;
-    }
-
-  .imgViajero{
-  height: 200px;  
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    z-index: 1;
+    color: $cparrafo;
   }
 
-/* button tips */
-
-.padre > .circle0 {
-  top:55%;
-  left: 40%;
+  .text_parrafo {
+    font-family: 'Poppins', sans-serif;
+    font-size: smaller;
   }
 
-  .padre > .circle1 {
-    top:115%;
+  .imgViajero {
+    height: 200px;
+  }
+
+  /* button tips */
+
+ .padre>.circle0 {
+    top: 55%;
     left: 40%;
-    }
-    
-    .padre > .circle2 {
-      left:40%;
-      top:170%;
-      }
-    
-    .padre > .circle3 {
-      left:40%;
-      top:230%;
-        }
-    
-        .padre > .circle4 {
-      left:40%;
-      top:280%;
-          }
-  
+  }
 
-    
+  .padre>.circle1 {
+    top: 115%;
+    left: 40%;
+  }
+
+  .padre>.circle2 {
+    left: 40%;
+    top: 170%;
+  }
+
+  .padre>.circle3 {
+    left: 40%;
+    top: 230%;
+  }
+
+
+
+
+
+}
+
+/* tablet */
+@media only screen and (min-width : 768px) {
+  .row_fondo {
+    height: auto;
+    width: 700px;
+  }
+
+  .row_persona {
+    top: 55%;
+    left: 30%;
+    height: 150px;
+    width: 250px;
+  }
+
+  .mensaje {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    z-index: 1;
+    color: $cparrafo;
+  }
+
+  .text_parrafo {
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+  }
+
+  .imgViajero {
+    height: 300px;
+  }
+
+
+
+
+}
+
+
+/* pantallas grandes */
+
+@media only screen and (min-width : 1200px) {
+  .row_fondo {
+    height: auto;
+    width: 100%;
+  }
+
+  .row_persona {
+    top: 40%;
+    left: 30%;
+    height: 450px;
+    width: 650px;
 
   }
-  /* tablet */
-  @media only screen 
-     and (min-width : 768px) {
-      .row_fondo{
-        height: auto;
-        width:700px;
-        }
-  
-      .row_persona{
-        top: 55%;
-        left: 30%;
-        height:150px;
-        width:250px;
-           }
-         
-           .mensaje{
-       
-            font-family: 'Poppins', sans-serif;
-            font-size: 40px;
-            font-weight: bold;
-            position: absolute;
-            top: 70px;
-            left: 40px;
-            z-index: 1;
-            color: $cparrafo;
-         }  
 
-         .text_parrafo{
-          font-family: 'Poppins', sans-serif;
-          font-size:medium;
-          }
+  .mensaje {
 
-          .imgViajero{
-            height: 300px;  
-            }
-          
-          
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    position: absolute;
+    top: 160px;
+    left: 70px;
+    z-index: 1;
+    color: $cparrafo;
+  }
+
+  .imgViajero {
+    height: 400px;
+  }
+
+ 
+ .padre>.circle1 {
+    left: 35%;
+  }
+
+  .padre>.circle2 {
+    left: 60%;
+  }
+
+  .padre>.circle3 {
+    left: 85%;
+  }
+
+  .padre>.circle4 {
+    left: 35%;
   }
   
-  
-  /* pantallas grandes */
-  
-  @media only screen 
-     and (min-width : 1200px) {
-      .row_fondo{
-        height: auto;
-        width:100%;
-        }
-  
-        .row_persona{
-          top: 40%;
-          left:30%;
-          height:450px;
-          width:650px;
-         
-           }
-
-           .mensaje{
-       
-            font-family: 'Poppins', sans-serif;
-            font-size: 80px;
-            font-weight: bold;
-            position: absolute;
-            top: 160px;
-            left: 70px;
-            z-index: 1;
-            color: $cparrafo;
-         }
-
-         .imgViajero{
-          height: 400px;  
-          }
-        
-    
-.padre > .circle1 {
-  left:35%;
-  }
-  
-  .padre > .circle2 {
-    left:60%;
-    }
-  
-  .padre > .circle3 {
-    left:85%;
-      }
-  
-      .padre > .circle4 {
-    left:35%;
-        }
 
 
-
-  }
+}
 
 
 
@@ -184,14 +180,14 @@ $cparrafo:#2a9d8f;
 /* tips */
 
 
-.tipTitle{
+.tipTitle {
   text-align: center;
-background-color: #ebedf0;
- 
+  background-color: #ebedf0;
+
   margin: 0px;
 }
 
-.tipImg{
+.tipImg {
   height: 400px;
 
 }
@@ -199,41 +195,46 @@ background-color: #ebedf0;
 
 .circulo {
   position: absolute;
-	width: 6rem;
-	height: 6rem;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   top: 60%;
   left: 10%;
-  
-  background-color:rgba(255, 255, 255, 0.678);
-  border:5px solid rgb(41, 112, 91);    
-  -moz-border-radius:50%;
-  -webkit-border-radius:50%;
+
+  background-color: rgba(255, 255, 255, 0.678);
+  border: 5px solid rgb(41, 112, 91);
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
 }
 
 
-.circulo > p {
-	font-family: sans-serif;
-	color: rgb(240, 240, 240);
-	font-size: 1rem;
-	font-weight: bold;
+.circulo>p {
+  font-family: sans-serif;
+  color: rgb(240, 240, 240);
+  font-size: 1rem;
+  font-weight: bold;
 
 }
-ion-icon  {
+
+ion-icon {
   color: $cparrafo;
   height: 50px;
-  
+
 }
 
-ion-icon:hover  {color:red;}
+ion-icon:hover {
+  color: red;
+}
 
-.padre > *:hover{
-  color: rgb(131, 131, 131); /* color boton */
-  background-color:rgba(203, 212, 210, 0.589);/* cambio opacidad background */
+.padre>*:hover {
+  color: rgb(131, 131, 131);
+  /* color boton */
+  background-color: rgba(203, 212, 210, 0.589);
+  /* cambio opacidad background */
   /* Aplica filtros para las imagenes brillo y saturación */
   filter: brightness(113%) saturate(128%);
   -webkit-filter: brightness(113%) saturate(128%);
