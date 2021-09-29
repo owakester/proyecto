@@ -287,3 +287,67 @@ a {
 /* run sass    npm run watch-css */
 .card {
   margin: 1px; }
+
+/* tips */
+.tipTitle {
+  text-align: center;
+  background-color: #ebedf0;
+  margin: 0px; }
+
+.tipImg {
+  height: 400px; }
+
+.circulo {
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 60%;
+  left: 10%;
+  background-color: rgba(255, 255, 255, 0.678);
+  border: 5px solid #29705b;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%; }
+
+.padre > .circle1 {
+  left: 35%; }
+
+.padre > .circle2 {
+  left: 60%; }
+
+.padre > .circle3 {
+  left: 85%; }
+
+.padre > .circle4 {
+  left: 35%; }
+
+.circulo > p {
+  font-family: sans-serif;
+  color: #f0f0f0;
+  font-size: 1rem;
+  font-weight: bold; }
+
+ion-icon {
+  color: #2a9d8f;
+  height: 50px; }
+
+ion-icon:hover {
+  color: red; }
+
+.padre > *:hover {
+  color: #838383;
+  /* color boton */
+  background-color: rgba(203, 212, 210, 0.589);
+  /* cambio opacidad background */
+  /* Aplica filtros para las imagenes brillo y saturación */
+  filter: brightness(113%) saturate(128%);
+  -webkit-filter: brightness(113%) saturate(128%);
+  -moz-filter: brightness(113%) saturate(128%); }
+
+/* justificar texto */
+.text-justify {
+  text-align: justify; }
