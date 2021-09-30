@@ -36,7 +36,7 @@
   z-index: 1; }
 
 /* tamaño celular */
-@media only screen and (max-width: 420px) {
+@media only screen and (min-device-width: 355px) and (max-device-width: 667px) {
   .row_fondo {
     height: auto;
     width: 320px; }
@@ -61,17 +61,17 @@
     height: 200px; }
   /* button tips */
   .padre > .circle0 {
-    top: 55%;
+    top: 45%;
     left: 40%; }
   .padre > .circle1 {
-    top: 115%;
+    top: 110%;
     left: 40%; }
   .padre > .circle2 {
     left: 40%;
-    top: 170%; }
+    top: 175%; }
   .padre > .circle3 {
     left: 40%;
-    top: 230%; } }
+    top: 240%; } }
 
 /* tablet */
 @media only screen and (min-width: 768px) {
