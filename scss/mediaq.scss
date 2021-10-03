@@ -45,6 +45,7 @@ and (max-device-width: 667px){
     left: 10px;
     z-index: 1;
     color: $cparrafo;
+        text-shadow: 2px 2px 0px #0f0f0f, 5px 4px 0px rgba(0,0,0,0.15);
   }
 
   .text_parrafo {
@@ -116,6 +117,7 @@ and (max-device-width: 667px){
     left: 40px;
     z-index: 1;
     color: $cparrafo;
+    text-shadow: 2px 2px 0px #0f0f0f, 5px 4px 0px rgba(0,0,0,0.15);
   }
 
   .text_parrafo {
@@ -159,26 +161,34 @@ and (max-device-width: 667px){
     left: 70px;
     z-index: 1;
     color: $cparrafo;
+    text-shadow: 2px 2px 0px #0f0f0f, 5px 4px 0px rgba(0,0,0,0.15);
   }
 
   .imgViajero {
     height: 400px;
   }
 
- 
+ .padre>.circle0{
+  top: 900px;
+  left: 10%;
+ }
  .padre>.circle1 {
+   top: 900px;
     left: 35%;
   }
 
   .padre>.circle2 {
+    top: 900px;
     left: 60%;
   }
 
   .padre>.circle3 {
+    top: 900px;
     left: 85%;
   }
 
   .padre>.circle4 {
+     top: 900px;
     left: 35%;
   }
   
