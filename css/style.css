@@ -50,7 +50,7 @@
     font-size: 15px;
     font-weight: bold;
     position: absolute;
-    top: 25px;
+    top: 5px;
     left: 10px;
     z-index: 1;
     color: #2a9d8f;
@@ -74,7 +74,10 @@
     left: 40%;
     top: 1550px; }
   .pMadero {
-    height: 100px; } }
+    height: 100px; }
+  .texto {
+    height: 195px;
+    overflow: hidden; } }
 
 /* tablet */
 @media only screen and (min-width: 768px) {

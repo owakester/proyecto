@@ -41,7 +41,7 @@ and (max-device-width: 667px){
     font-size: 15px;
     font-weight: bold;
     position: absolute;
-    top: 25px;
+    top: 5px;
     left: 10px;
     z-index: 1;
     color: $cparrafo;
@@ -84,8 +84,13 @@ and (max-device-width: 667px){
   height:100px;
 }
 
-
+.texto{
+  height: 195px;
+  overflow:hidden;
+ }
 }
+
+
 
 
 
