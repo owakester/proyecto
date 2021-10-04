@@ -237,11 +237,11 @@ h4 {
 
 /* aplicando maps */
 .element {
-  color: #2a9d8f;
+  color: #828887;
   padding: 1em;
   margin: 0 1em; }
   .element::before {
-    background-color: #2a9d8f; }
+    background-color: #828887; }
 
 ion-icon {
   padding: 4px;
